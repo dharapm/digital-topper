@@ -750,3 +750,41 @@ body {
         font-size: 3rem;
     }
 }
+
+
+
+
+/* Contact Us Section */
+    .contact-info {
+    padding: 60px 20px;
+    background-color: #fdfdfd;
+    text-align: center;
+    }
+
+    .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+    }
+
+    .info-item h4 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+    }
+
+    .info-item p,
+    .info-item a {
+    color: #555;
+    font-size: 1rem;
+    text-decoration: none;
+    }
+
+    .map-container iframe {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    }
+
+
